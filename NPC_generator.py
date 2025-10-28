@@ -1,16 +1,8 @@
-npc_names = input("List ten names seperates by commas: ")
-
-npc_list = []
-npc_list.append(npc_names)
-
-for name in npc_list:
-    level = random.randit(1,10) # Whole number for each character to determine their level
-    gold_int = random.randit(100, 500) #Random whole number for gold
-    gold = gold_int / 100.0 #Divide by float to get the gold as a float (To complete the requirement of floats)
-    
-
 import random
 
+npc_names = input("List ten names seperated by commas: ")
+name_list = npc_names.split(", ")
+# print(name_list)
 
 attributes = [
     "brave",
@@ -54,4 +46,16 @@ attributes = [
     "hopeful",
     "ambitious"
 ]
+
+
+
+for name in name_list:
+    level = random.randint(1,10) # Whole number for each character to determine their level
+    gold_int = random.randint(100, 500) #Random whole number for gold
+    gold = gold_int / 100.0 #Divide by float to get the gold as a float (To complete the requirement of floats)
+    npc_trait = random.choice(attributes)
+    print(f"{name} is level {level} and has {gold} grams of gold. They are {npc_trait} ")
+
+
+
 
