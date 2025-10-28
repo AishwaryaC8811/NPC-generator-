@@ -2,7 +2,6 @@ import random
 
 npc_names = input("List ten names seperated by commas: ")
 name_list = npc_names.split(", ")
-# print(name_list)
 
 attributes = [
     "brave",
@@ -53,8 +52,18 @@ for name in name_list:
     level = random.randint(1,10) # Whole number for each character to determine their level
     gold_int = random.randint(100, 500) #Random whole number for gold
     gold = gold_int / 100.0 #Divide by float to get the gold as a float (To complete the requirement of floats)
-    npc_trait = random.choice(attributes)
-    print(f"{name} is level {level} and has {gold} grams of gold. They are {npc_trait} ")
+    npc_trait = random.sample(attributes, 3)
+    trait1 = npc_trait[0]
+    trait2 = npc_trait[1]
+    trait3 = npc_trait[2]
+    is_friendly = random.choice([True, False]) #Boolean
+    if is_friendly == True:
+        friendly_status = "is"
+    elif is_friendly == False:
+        friendly_status = "is not"
+
+    print(f"**{name}** (Lvl{level}) has {gold}g of gold, {friendly_status} friendly, and is known to be {trait1}, {trait2}, and {trait3}.")
+    print("------------------------")
 
 
 
