@@ -5,8 +5,6 @@ End of marking period python
 #  🏆 NPC Generator 
 
 
-> *Your documentation is a direct reflection of your software, so hold it to the same standards.*
-
 
 ## 🌟 Highlights
 
@@ -17,12 +15,12 @@ End of marking period python
 
 ## ℹ️ Overview
 
-A paragraph explaining your work, who you are, and why you made it.
+The code written generates npc characters for an open world game, each with a variety of attributes. When the code first runs, the user is asked to insert atleast ten names. Then when entered, each name that the user had input will be listed in a clear format with their, level, gold, fighting status and three traits.
 
 
 ### ✍️ Authors
 
-Mention who you are and link to your GitHub or organization's website.
+*Possibly not required*
 
 
 ## 🚀 Usage
