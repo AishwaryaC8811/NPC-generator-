@@ -8,9 +8,10 @@ End of marking period python
 
 ## 🌟 Highlights
 
-- Some functionality made easy!
-- This problem handled
-- etc.
+- **Simple functionality** Generates NPCs quickly with a variety of attrubites
+- **User friendly** Only requires entering names
+- **Problem fixed** Takes care of randomizing levels, gold and traits
+- **Easy** Great starter project for python learning
 
 
 ## ℹ️ Overview
@@ -18,31 +19,16 @@ End of marking period python
 The code written generates npc characters for an open world game, each with a variety of attributes. When the code first runs, the user is asked to insert atleast ten names. Then when entered, each name that the user had input will be listed in a clear format with their, level, gold, fighting status and three traits.
 
 
+## 🚀 Usage
+1. Run the file
+2. Enter atleast 10 names when prompted
+3. View the randomly generated NPC list with their attributes 
+        
+ **Example layout:** **ex. 10** (Lvl 11) has 2.33g of gold, can fight, and is known to be daring, cheerful, and cunning.
+
+
 ### ✍️ Authors
 
-*Possibly not required*
+- **[Aishwarya Chandalada]**
+CSAEA / APCSP Student 
 
-
-## 🚀 Usage
-
-*Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
-
-```py
->>> import mypackage
->>> mypackage.do_stuff()
-'Oh yeah!'
-```
-
-
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
-
-
-## 💭 Feedback and Contributing
-
-Add a link to the Discussions tab in your repo and invite users to open issues for bugs/feature requests.
-
-This is also a great place to invite others to contribute in any ways that make sense for your project. Point people to your DEVELOPMENT and/or CONTRIBUTING guides if you have them.
